@@ -1,9 +1,7 @@
 # opencv-lab
 Repositório com exemplos diversos só pra eu manter salvo em algum lugar meus estudos em `opencv-python`
 
-## Basics
-
-### Installing
+### Instalação
 
 ```
 pip install opencv-python
