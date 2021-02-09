@@ -14,7 +14,5 @@ image = cv2.imread(IMAGES_DIR + "card.jpg", cv2.IMREAD_GRAYSCALE)
 # Exibir imagem
 cv2.imshow("Press Q to close", image)
 
-# Manter a imagem aberta até que o "q" seja pressionado
-key = cv2.waitKey(0)
-if key == ord("q"):
-    cv2.destroyAllWindows()
+# Manter a imagem aberta até que o usuário tome alguma ação
+cv2.waitKey(0)
