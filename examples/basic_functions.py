@@ -17,12 +17,17 @@ image_canny = cv2.Canny(image, 100, 100)
 
 # Dillation
 kernel = np.ones((5, 5), np.uint8)  # Gera uma matriz de 5x5
-print(kernel)
 image_dillation = cv2.dilate(image, kernel, iterations=1)
 
 # Erosion
 image_erosion = cv2.erode(image, kernel, iterations=1)
 
+# Resize
+image_resized = cv2.resize(image, (200, 200))
+
+# Crop
+image_cropped = image[200:300, 0:800]
+
 # Show image
-cv2.imshow("Image", image_erosion)
+cv2.imshow("Image", image_cropped)
 cv2.waitKey(0)
