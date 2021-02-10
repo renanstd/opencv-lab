@@ -1,4 +1,3 @@
-# https://github.com/murtazahassan/OpenCV-Python-Tutorials-and-Projects
 import cv2
 import numpy as np
 
